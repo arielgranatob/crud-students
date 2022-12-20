@@ -24,7 +24,7 @@ www/vendor/
 /config/*
 /data/*
 /logs/*
-/www/**
+/www/public/images/*
 .DS_Store
 /buildtest
 data/*

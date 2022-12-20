@@ -16,4 +16,10 @@ class Home extends BaseController
         $data['students'] = $this->Students->getAll();
         return view('index', $data);
     }
+
+    public function editStudent($id)
+    {
+        $data['student'] = $this->Students->getById($id);
+        return view('editStudent', $data);
+    }
 }

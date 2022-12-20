@@ -53,3 +53,8 @@ $routes->get('/', 'Home::index');
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+
+$routes->post('/addStudent', 'Students::addStudent');
+$routes->get('/editStudent/(:num)', 'Home::editStudent/$1');
+$routes->post('/updateStudent', 'Students::updateStudent');
+$routes->get('/deleteStudent/(:num)', 'Students::deleteStudent/$1');
