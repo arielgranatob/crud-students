@@ -17,3 +17,6 @@ application/logs/*
 /vendor/
 
 www/vendor/
+/www/vendor/
+
+/logs/
