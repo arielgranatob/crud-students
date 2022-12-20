@@ -27,3 +27,4 @@ www/vendor/
 /www/**
 .DS_Store
 /buildtest
+data/*
